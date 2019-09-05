@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="27" height="28" viewBox="0 0 27 28">
+    <defs>
+        <path id="a" d="M12.5 25.439c8.658 0 12.5-3.91 12.5-12.72S21.158 0 12.5 0 0 3.91 0 12.72s3.842 12.719 12.5 12.719z"/>
+        <filter id="b" width="126%" height="125.6%" x="-13%" y="-12.8%" filterUnits="objectBoundingBox">
+            <feOffset dx="3" dy="3" in="SourceAlpha" result="shadowOffsetInner1"/>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1"/>
+            <feColorMatrix in="shadowInnerInner1" result="shadowMatrixInner1" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 1 0"/>
+            <feOffset dx="-5" dy="-1" in="SourceAlpha" result="shadowOffsetInner2"/>
+            <feComposite in="shadowOffsetInner2" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner2"/>
+            <feColorMatrix in="shadowInnerInner2" result="shadowMatrixInner2" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.05 0"/>
+            <feMerge>
+                <feMergeNode in="shadowMatrixInner1"/>
+                <feMergeNode in="shadowMatrixInner2"/>
+            </feMerge>
+        </filter>
+        <path id="c" d="M7.25 2.55c5.462 0 7.25 3.045 7.25.517S9.66 0 7.25 0 0 .54 0 3.067c0 2.528 1.788-.518 7.25-.518z"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd" transform="translate(1 1)">
+        <use fill="#FFF0AF" xlink:href="#a"/>
+        <use fill="#000" filter="url(#b)" xlink:href="#a"/>
+        <use stroke="#494E61" stroke-width="1.512" xlink:href="#a"/>
+        <g stroke="#494E61" stroke-linecap="round" stroke-width="1.512">
+            <path d="M20.5 6.36C18 3.717 15.041 3.816 15 6.105M10 6.105c-.041-2.29-3-2.388-5.5.255"/>
+        </g>
+        <ellipse cx="7.5" cy="8.904" fill="#494E61" rx="1.5" ry="1.526"/>
+        <ellipse cx="17.5" cy="8.904" fill="#494E61" rx="1.5" ry="1.526"/>
+        <g transform="translate(5.25 14.246)">
+            <mask id="d" fill="#fff">
+                <use xlink:href="#c"/>
+            </mask>
+            <use fill="#494E61" stroke="#494E61" stroke-width="2.722" xlink:href="#c"/>
+            <path fill="#FFF" d="M-1.25-1.018h17v2.544h-17z" mask="url(#d)"/>
+        </g>
+    </g>
+</svg>

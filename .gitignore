@@ -1,0 +1,13 @@
+.vscode
+node_modules
+build
+*.log
+logs
+.next
+.cache
+.env
+./dist
+dist
+landing-build
+static/WidgetScript.js
+static/report.html

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="19px" height="26px" viewBox="0 0 19 26" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g id="logo" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="newsfeeder" transform="translate(2.000000, 2.000000)">
+            <g id="Group-2">
+                <g id="Group-4" stroke="#FFFFFF">
+                    <rect id="Rectangle" stroke-width="2" stroke-linejoin="round" x="-1" y="-1" width="17" height="23" rx="1"></rect>
+                    <path d="M3.75846287,4.80715322 L11.7584629,4.80715322" id="Line-3" stroke-width="2.32727259"></path>
+                    <path d="M3.75846287,10.4727266 L11.7584629,10.4727266" id="Line-3-Copy" stroke-width="2.32727259"></path>
+                    <path d="M3.75846287,16.1383001 L11.7584629,16.1383001" id="Line-3-Copy-2" stroke-width="2.32727259"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
